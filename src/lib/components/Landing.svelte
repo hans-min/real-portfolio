@@ -1,4 +1,4 @@
-<div class="hero is-full-screen fadeIn">
+<div class="hero is-full-screen">
   <div class="frontSplash">
     <h2>Hi, I'm</h2>
     <h1 class="nameTitle">Minh Hanh</h1>

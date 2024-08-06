@@ -1,29 +1,28 @@
 <script lang="ts">
-  import logo from "$lib/images/logo.svg";
   export let items = [
-    { name: "About", url: "/#about" },
-    { name: "Skills", url: "#skills" },
-    { name: "Projects", url: "#projects" },
-    { name: "Contact", url: "#contact" },
+    "About",
+    "Skills",
+    "Projects",
+    "Contact",
   ];
 
-  let activeItem = items[0].name; // default active item
+  let activeItem = items[0]; // default active item
   function setActiveItem(name: string) {
     activeItem = name;
   }
 </script>
 
-<header class="sticky">
+<header class="sticky glass">
   <nav class="nav">
     <div class="nav-center">
       <div class="tabs">
         {#each items as item}
           <a
-            href={item.url}
-            class={item.name === activeItem ? "active" : ""}
-            on:click={() => setActiveItem(item.name)}
+            href="#{item}"
+            class={item === activeItem ? "active" : ""}
+            on:click={() => setActiveItem(item)}
           >
-            {item.name}
+            {item}
           </a>
         {/each}
       </div>
@@ -39,4 +38,7 @@
     top: 0;
   }
 
+  header.glass {
+    backdrop-filter: blur(20px);
+  }
 </style>

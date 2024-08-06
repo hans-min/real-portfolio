@@ -1,13 +1,13 @@
 <script lang="ts">
   export let projectName;
-  export let link;
+  export let link: string|null = null;
   export let workplace;
   export let imgSrc;
   export let altText;
   export let description;
 </script>
 
-<div class="row fadeIn">
+<div class="row fadeIn addMargin">
   <div class="col">
     <a class="subTitle" href={link}>{projectName}</a>
     <p class="workplace">{workplace}</p>
@@ -21,6 +21,9 @@
 </div>
 
 <style>
+  .addMargin {
+    margin-bottom: 4em;
+  }
   .workplace {
     font-size: 0.9em;
   }
