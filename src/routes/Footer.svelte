@@ -1,5 +1,6 @@
 <footer>
-  <!-- <p>Social(ly arkward)</p> -->
+  <p>Social(ly arkward) © 2024 Nguyen Minh Hanh</p>
+   
 </footer>
 
 <style>
