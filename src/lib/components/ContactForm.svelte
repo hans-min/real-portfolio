@@ -1,18 +1,16 @@
+<script>
+  import { _ } from "svelte-i18n";
+</script>
+
 <form method="POST" action="/contact" enctype="multipart/form-data">
   <div class="row">
     <label for="name" class="col">
-      <span>Name</span>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        aria-label="name"
-        placeholder="Name"
-      />
+      <span>{$_("contact.name")}</span>
+      <input type="text" id="name" name="name" aria-label="name" placeholder="Name" />
     </label>
 
     <label for="email" class="col">
-      <span>Email</span>
+      <span>{$_("contact.email")}</span>
       <input
         type="email"
         id="email"
@@ -26,7 +24,7 @@
     <!-- honeypot, the value should be empty -->
     <input type="text" name="subject" id="subject" class="is-hidden" value="speak" />
     <label for="reason" class="col">
-      <span>Reason</span>
+      <span>{$_('contact.reason')}</span>
       <select id="reason" name="reason" aria-label="reason">
         <option disabled selected value="">Contact reason</option>
         <option value="hi">Say hi!</option>
@@ -47,7 +45,7 @@
     />
   </label>
 
-  <button type="submit">Submit</button>
+  <button type="submit">{$_('contact.send')}</button>
 </form>
 
 <style>

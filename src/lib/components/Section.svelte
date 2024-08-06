@@ -2,7 +2,7 @@
   export let sectionName;
 </script>
 
-<section>
-  <h2 class="is-center" id={sectionName}>{sectionName}</h2>
+<section id={sectionName}>
+  <h2 class="is-center">{sectionName}</h2>
   <slot></slot>
 </section>

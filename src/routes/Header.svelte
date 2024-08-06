@@ -1,10 +1,9 @@
 <script lang="ts">
-  export let items = [
-    "About",
-    "Skills",
-    "Projects",
-    "Contact",
-  ];
+  import { _ } from 'svelte-i18n';
+  
+  import LocaleSelector from "$lib/components/LocaleSelector.svelte";
+
+  export let items: string[] = ["about", "skills", "projects", "contact"];
 
   let activeItem = items[0]; // default active item
   function setActiveItem(name: string) {
@@ -18,13 +17,14 @@
       <div class="tabs">
         {#each items as item}
           <a
-            href="#{item}"
+            href="#{$_(`sections.${item}`)}"
             class={item === activeItem ? "active" : ""}
             on:click={() => setActiveItem(item)}
           >
-            {item}
+            {$_(`sections.${item}`)}
           </a>
         {/each}
+        <LocaleSelector/>
       </div>
     </div>
   </nav>

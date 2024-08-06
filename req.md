@@ -8,10 +8,10 @@
 - [x] Formulaire de Contact
 - [x] Lien avec les Réseaux Sociaux / Cohérence
 - [x] Réalisation des contenus
-- [ ] Traduction des contenus (2 langues minimums)
+- [x] Traduction des contenus (2 langues minimums)
 - [ ] conformité RGDP
 - [ ] Mentions légales / Copyright
 - [ ] Tests d'Accessibilité / Performances
-- [ ] Relectures des contenus / Traductions
+- [x] Relectures des contenus / Traductions
 - [x] Tests utilisateur du site
 - [ ] Vidéo

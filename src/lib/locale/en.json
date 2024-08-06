@@ -3,5 +3,25 @@
   "landing": {
     "hi": "Hi, I'm",
     "jobTitle": "Game Developer, Software Engineer, Test Automation Engineer."
+  },
+  "sections": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "languages": "Languages",
+  "framework": "Framework/Tools",
+  "projectsDescription": {
+    "squiddy": "Create a Bluetooth Low Energy library in Swift to control the smart house alarms SQUIDD HOME to facilitate the development of the iOS application Squiddy",
+    "crashedWorld": "Basically 2.5D Minecraft. I was in charge of the procedural generation of the 3D world.",
+    "myoty": "Developed MyOty, an mobile application used to detect (map view), read and visualize data from Bluetooth sensors and equipments (Flutter). Also work with the Flutter platform channel to integrate third-party Swift libraries into the app.",
+    "poule": "Created a 1:5 model of a fully functional, movable smart chicken coop. The coop was equiped with a solar panel, an automatic feeding sytem, a water dispenser, ventilation system and a mobile application for the farmers."
+  },
+  "contact": {
+    "email": "Email",
+    "name": "Name",
+    "reason": "Reason",
+    "send": "Send"
   }
 }

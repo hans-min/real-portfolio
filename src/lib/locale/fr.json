@@ -1,6 +1,27 @@
 {
   "about": "Salut, je suis Minh Hanh et j'adore apprendre et essayer de nouvelles choses. Je travaille actuellement en tant qu'ingénieur en automatisation des tests chez EPEX SPOT. J'habite à Paris et je suis née au Vietnam. Je suis arrivée à Lyon, France en 2019 pour étudier à l'école d'ingénieurs INSA Lyon. En 2021, je me suis réorientée vers le CNAM ENJMIN pour étudier le développement de jeux et j'ai rejoint Akensys en tant que développeuse mobile en apprentissage pendant 2 ans. Ensuite, j'ai fait mon Master à CAWEB, Université de Strasbourg et je travaille chez EPEX SPOT depuis.",
-  "jobTitle": "Développeuse de Jeux, Ingénieur Logiciel, Ingénieur en Automatisation des tests.",
-  "hi": "Salut, je suis",
-  "name": "Minh Hanh"
+  "landing": {
+    "jobTitle": "Développeuse de Jeux, Ingénieur Logiciel, Ingénieur en Automatisation des tests.",
+    "hi": "Salut, je suis"
+  },
+  "sections": {
+    "about": "Propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "languages": "Langues",
+  "framework": "Framework/Outils",
+  "projectsDescription": {
+    "squiddy": "Créer une bibliothèque Bluetooth Low Energy en Swift pour contrôler les détecteurs de présence intelligentes SQUIDD HOME afin de faciliter le développement de l'application iOS Squiddy",
+    "crashedWorld": "En gros, c'est Minecraft en 2.5D. J'étais en charge de la génération procédurale du monde 3D.",
+    "myoty": "Développement de MyOty, une application mobile utilisée pour détecter (avec vue cartographique), lire et visualiser les données des capteurs et équipements Bluetooth (Flutter). Travaillez également avec le platform channel de Flutter pour intégrer des bibliothèques Swift tierces dans l'application.",
+    "poule": "Création d'un modèle 1:5 d'un poulailler fonctionnel, intelligent et mobile. Le poulailler était équipé d'un panneau solaire, d'un système d'alimentation et d'un distributeur d'eau automatique, d'un système de ventilation et d'une application mobile pour les agriculteurs."
+  },
+  "contact": {
+    "email": "Émail",
+    "name": "Nom",
+    "reason": "Raison",
+    "send": "Envoyer"
+  }
 }

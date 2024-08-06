@@ -9,17 +9,17 @@
 </script>
 
 <Landing />
-<Section sectionName="About">
+<Section sectionName={$_('sections.about')}>
   <p class="fadeIn">
     {$_('about')}
   </p>
 </Section>
-<Section sectionName="Skills">
+<Section sectionName={$_('sections.skills')}>
   <Skills />
 </Section>
-<Section sectionName="Projects">
+<Section sectionName={$_('sections.projects')}>
   <Projects />
 </Section>
-<Section sectionName="Contact">
+<Section sectionName={$_('sections.contact')}>
   <ContactForm />
 </Section>

@@ -4,7 +4,8 @@
   export let workplace;
   export let imgSrc;
   export let altText;
-  export let description;
+  export let descLocaleName;
+  import { _ } from 'svelte-i18n';
 </script>
 
 <div class="row fadeIn addMargin">
@@ -12,7 +13,7 @@
     <a class="subTitle" href={link}>{projectName}</a>
     <p class="workplace">{workplace}</p>
     <p class="projectDescription">
-      {description}
+      {$_(`projectsDescription.${descLocaleName}`)}
     </p>
   </div>
   <a class="col is-center" href={link}>

@@ -1,5 +1,9 @@
+  <script>
+  import { _ } from 'svelte-i18n';
+
+  </script>
   <div class="fadeIn">
-    <h3>Languages</h3>
+    <h3>{$_('languages')}</h3>
     <ul class="row">
       <li class="button primary">Swift</li>
       <li class="button primary">Dart</li>
@@ -7,7 +11,7 @@
       <li class="button primary">Javascript</li>
       <li class="button primary">HTML/CSS</li>
     </ul>
-    <h3>Framework/Tools</h3>
+    <h3>{$_('framework')}</h3>
     <ul class="row">
       <li class="button primary">Godot</li>
       <li class="button primary">Blender</li>
