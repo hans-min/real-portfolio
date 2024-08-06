@@ -10,7 +10,7 @@
   <ProjectCard
     projectName="Squiddy"
     workplace="Akensys"
-    description="Create a Bluetooth library in Swift to facilitate the development of iOS applications that use Bluetooth/BLE"
+    description="Create a Bluetooth Low Energy library in Swift to control the smart locks to facilitate the development of the iOS application Squiddy"
     imgSrc={squiddy}
     altText="Squiddy App"
     link="http://squiddy.fr/"
@@ -36,7 +36,7 @@
   <ProjectCard
     projectName="Ca roule ma poule"
     workplace="INSA Lyon"
-    description="We created a 1:5 model of a fully functional, movable smart chicken coop. The coop was equiped with a solar panel, 
+    description="Created a 1:5 model of a fully functional, movable smart chicken coop. The coop was equiped with a solar panel, 
     an automatic feeding sytem, a water dispenser, ventilation system and a mobile application for the farmers."
     imgSrc={poule}
     altText="movable chicken coop"

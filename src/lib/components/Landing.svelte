@@ -2,7 +2,7 @@
   <div class="frontSplash">
     <h2>Hi, I'm</h2>
     <h1 class="nameTitle">Minh Hanh</h1>
-    <h3>Game developer, designer, test automation engineer.</h3>
+    <h3>Game Developer, Software Engineer, Test Automation Engineer.</h3>
     <div>
     <a href="https://www.linkedin.com/in/hanjismin/">
       <img src="https://icongr.am/devicon/linkedin-original.svg?size=24" alt="linkedIn" />

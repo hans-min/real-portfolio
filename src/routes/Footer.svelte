@@ -1,7 +1,3 @@
-<script>
-  import ContactForm from "$lib/components/ContactForm.svelte";
-
-</script>
 <footer>
   <!-- <p>Social(ly arkward)</p> -->
 </footer>
