@@ -10,13 +10,13 @@
 
 <div class="row fadeIn addMargin">
   <div class="col">
-    <a class="subTitle" href={link}>{projectName}</a>
+    <a class="subTitle" href={link} target="_blank">{projectName}</a>
     <p class="workplace">{workplace}</p>
     <p class="projectDescription">
       {$_(`projectsDescription.${descLocaleName}`)}
     </p>
   </div>
-  <a class="col is-center" href={link}>
+  <a class="col is-center" href={link} target="_blank">
     <img class="thumbnail" src={imgSrc} alt={altText} />
   </a>
 </div>

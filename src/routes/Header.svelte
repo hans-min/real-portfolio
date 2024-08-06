@@ -14,18 +14,20 @@
 <header class="sticky glass">
   <nav class="nav">
     <div class="nav-center">
-      <div class="tabs">
+      <div class="tabs">    
         {#each items as item}
           <a
-            href="#{$_(`sections.${item}`)}"
+            href="/#{$_(`sections.${item}`)}"
             class={item === activeItem ? "active" : ""}
             on:click={() => setActiveItem(item)}
           >
             {$_(`sections.${item}`)}
           </a>
         {/each}
-        <LocaleSelector/>
       </div>
+    </div>
+    <div class="nav-right">
+        <LocaleSelector/>
     </div>
   </nav>
 </header>
