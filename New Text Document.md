@@ -3,7 +3,7 @@
 - [x] Hébergeur trouvé : GitHub 
 - [x] Choix CMS / Développement: Svelte
 - [x] Site Responsive - tests responsive effectués - Mobile First
-- [ ] Référencement
+- [ ] SEO optimized
 - [ ] Analyse du Traffic / mise en place d'outils
 - [x] Formulaire de Contact
 - [x] Lien avec les Réseaux Sociaux / Cohérence

@@ -24,6 +24,7 @@
 
     window.addEventListener("scroll", reveal);
   });
+
 </script>
 
 <div>
