@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-  <p>Social<span class="fade-out">ly arkward</span></p>
+  <p>Socia<span class="fade-out">lly arkward</span></p>
   <div>
       <a href="https://www.linkedin.com/in/hanjismin/">
         <img
