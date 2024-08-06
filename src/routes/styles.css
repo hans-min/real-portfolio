@@ -1,0 +1,43 @@
+:root {
+  /* --color-theme-1: #ff3e00; */
+  --color-primary: #4075a6;
+  --grid-maxWidth: 80rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  --color-bg-0: rgb(202, 216, 228);
+  --color-bg-1: hsl(209, 36%, 86%);
+  --color-bg-2: hsl(224, 44%, 95%);
+  min-width: 320px;
+  background-attachment: fixed;
+  background-image: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.75) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-bg-0) 0%,
+      var(--color-bg-1) 15%,
+      var(--color-bg-2) 50%
+    );
+  /* opacity: 1;
+  transition: opacity 0.5s; */
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(4vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.3s ease-out;
+  will-change: opacity, visibility;
+}
+.fadeIn.onScreen {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
