@@ -11,6 +11,9 @@
 </label>
 
 <style>
+  label {
+    margin-top: 8px;
+  }
   select {
     min-width: 50px;
   }
