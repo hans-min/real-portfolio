@@ -4,7 +4,7 @@
 
 <div class="hero is-full-screen">
   <div class="frontSplash">
-    <h3>{$_('landing.hi')}</h3>
+    <h2>{$_('landing.hi')}</h2>
     <h1 class="nameTitle">Minh Hanh</h1>
     <h3>{$_('landing.jobTitle')}</h3>
     <div>

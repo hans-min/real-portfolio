@@ -1,3 +1,7 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <footer>
   <p>Social<span class="fade-out">ly arkward</span></p>
   <div>
@@ -12,8 +16,8 @@
         <img src="https://icongr.am/devicon/github-original.svg?size=24" alt="github" />
       </a>
     </div>
-  <a href="/privacyPolicy">Privacy Policy</a>
-  <a href="/legalNotice">Legal Notice</a>
+  <a href="{base}/privacyPolicy">Privacy Policy</a>
+  <a href="{base}/legalNotice">Legal Notice</a>
   <p> © 2024 Nguyen Minh Hanh. All rights reserved.</p>
 </footer>
 
