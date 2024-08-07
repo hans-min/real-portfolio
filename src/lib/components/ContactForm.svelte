@@ -2,7 +2,8 @@
   import { _ } from "svelte-i18n";
 </script>
 
-<form method="post">
+<form method="post" action="https://api.staticforms.xyz/submit" >
+  <input type="hidden" name="accessKey" value="ae05d516-c6c3-44fa-9b1e-634e11974611">
   <div class="row">
     <label for="name" class="col">
       <span>{$_("contact.name")}</span>
