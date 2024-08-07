@@ -19,11 +19,12 @@ jobs:
 
       - name: Install dependencies        
         run: npm install
+
       - name: build        
         env:          
           BASE_PATH: '/${{ github.event.repository.name }}'        
-        run: |          
-          node -r dotenv/config build
+        run: npm run build && npx gh-pages -d build
+        
       - name: Upload Artifacts        
         uses: actions/upload-pages-artifact@v3        
         with:          
