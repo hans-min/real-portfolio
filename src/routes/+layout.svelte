@@ -6,7 +6,6 @@
   import { onMount } from "svelte";
   import "$lib/locale/i18n";
 
-
   onMount(() => {
     document.body.style.opacity = "1";
     // https://www.nucleiotechnologies.com/fade-in-animation-when-scroll-in-your-website/
