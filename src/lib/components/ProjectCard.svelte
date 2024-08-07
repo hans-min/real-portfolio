@@ -5,6 +5,7 @@
   export let imgSrc;
   export let altText;
   export let descLocaleName;
+  export let toolsUsed;
   import { _ } from 'svelte-i18n';
 </script>
 
@@ -15,6 +16,7 @@
     <p class="projectDescription">
       {$_(`projectsDescription.${descLocaleName}`)}
     </p>
+    <div class="button">{toolsUsed}</div>
   </div>
   <a class="col is-center" href={link} target="_blank">
     <img class="thumbnail" src={imgSrc} alt={altText} />
@@ -37,6 +39,14 @@
   .thumbnail {
     width: 15em;
     border-radius: 0.5em;
+  }
+
+  .button {
+    background-color: #ff906b;
+    border-radius: 1em;
+    padding: auto 0.5em;
+    margin: 0;
+    display: inline-block;
   }
 
   @media (max-width: 600px) {

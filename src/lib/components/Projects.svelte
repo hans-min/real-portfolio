@@ -14,6 +14,7 @@
     imgSrc={squiddy}
     altText="Squiddy App"
     link="http://squiddy.fr/"
+    toolsUsed="Swift"
   />
   <ProjectCard
     projectName="Crashed World"
@@ -22,6 +23,7 @@
     imgSrc={crashedWorld}
     altText="Crashed World Game"
     link="https://hans-min.itch.io/crashed-world"
+    toolsUsed="Godot"
   />
   <ProjectCard
     projectName="MyOty"
@@ -30,6 +32,7 @@
     imgSrc={myOty}
     altText="MyOty App"
     link="https://play.google.com/store/apps/details?id=net.akensys.myotyv2&hl=en&gl=US"
+    toolsUsed="Flutter"
   />
   <ProjectCard
     projectName="Ca roule ma poule"
@@ -37,6 +40,6 @@
     descLocaleName="poule"
     imgSrc={poule}
     altText="movable chicken coop"
-
+    toolsUsed="Solid Edge"
   />
 </div>
