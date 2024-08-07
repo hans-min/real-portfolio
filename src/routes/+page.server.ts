@@ -1,9 +1,10 @@
 import type { PageServerLoad } from "./$types";
 import { STATICFORM_API_KEY } from "$env/static/private";
+export const prerender = false;
 
-export const load = (async () => {
-  return {};
-}) satisfies PageServerLoad;
+// export const load = (async () => {
+//   return {};
+// }) satisfies PageServerLoad;
 
 export const actions = {
   default: async ({ request }) => {

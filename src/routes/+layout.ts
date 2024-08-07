@@ -1,5 +1,5 @@
 import type { LayoutLoad } from "./$types";
-export const prerender = false;
+export const prerender = true;
 
 export const load = (async () => {
   return {};

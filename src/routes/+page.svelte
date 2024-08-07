@@ -4,7 +4,6 @@
   import Projects from "$lib/components/Projects.svelte";
   import Section from "$lib/components/Section.svelte";
   import Skills from "$lib/components/Skills.svelte";
-  import "$lib/locale/i18n";
   import { _ } from "svelte-i18n";
   export let form;
 </script>
