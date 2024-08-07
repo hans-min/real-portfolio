@@ -1,32 +1,29 @@
   <script>
   import { _ } from 'svelte-i18n';
+  import SkillCard from './SkillCard.svelte';
 
   </script>
   <div class="fadeIn">
     <h3>{$_('languages')}</h3>
     <ul class="row">
-      <li class="button primary">Swift</li>
-      <li class="button primary">Dart</li>
-      <li class="button primary">Python</li>
-      <li class="button primary">Javascript</li>
-      <li class="button primary">HTML/CSS</li>
+      <SkillCard skill="Swift" imgName="swift-15"/>
+      <SkillCard skill="Python" imgName="python-5"/>
+
+      <SkillCard skill="Dart" imgName="dart"/>
+      <SkillCard skill="Javascript" imgName="logo-javascript"/>
+
     </ul>
     <h3>{$_('framework')}</h3>
     <ul class="row">
-      <li class="button primary">Godot</li>
-      <li class="button primary">Blender</li>
-      <li class="button primary">Swift</li>
-      <li class="button primary">Flutter</li>
-      <li class="button primary">Robot Framework</li>
-      <li class="button primary">Git</li>
-      <li class="button primary">Svelte</li>
+      <SkillCard skill="Flutter" imgName="flutter-logo"/>
+      <SkillCard skill="Godot" imgName="godot-1" size=80/>
+      <SkillCard skill="Robot Framework" imgName="robot-framework" size=70/>
+      <SkillCard skill="Blender" imgName="blender-2" size=60/>
+      <SkillCard skill="Svelte" imgName="svelte-1" size=60/>
     </ul>
   </div>
 
 <style>
-  li {
-    margin: 10px;
-  }
 
   ul {
     list-style-type: none;
