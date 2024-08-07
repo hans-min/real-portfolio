@@ -1,38 +1,20 @@
-# create-svelte
+## Requirements
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+- [x] Hébergeur trouvé : **GitHub Pages**
+- [x] Choix CMS / Développement: **Svelte**
 
-## Creating a project
+- [X] Analyse du Traffic / mise en place d'outils: **Google Search Console**
+- [x] Lien avec les Réseaux Sociaux / Cohérence: **Github, LinkedIn**
+- [x] Réalisation des contenus
+- [x] Traduction des contenus (2 langues minimums): **en, fr**
+- [x] Relectures des contenus / Traductions
+- [x] Tests utilisateur du site
+- [x] Mentions légales / Copyright
+- [x] conformité RGDP
+- [x] Formulaire de Contact
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Other tests
+- [x] Tests d'Accessibilité / Performances 
+- [x] SEO optimized
+- [x] Site Responsive - tests responsive effectués: **Mobile First: Lighthouse Test on mobile**
+![SEO And Accessibility Test](image.png)
