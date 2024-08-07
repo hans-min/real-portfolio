@@ -5,7 +5,6 @@
 </script>
 
 <div class="card">
-  <!-- <h4>{skill}</h4> -->
   <img
     src="https://cdn.worldvectorlogo.com/logos/{imgName}.svg"
     alt="{skill} Logo"
@@ -20,7 +19,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
     box-shadow: none;
     background-color: transparent;
   }
