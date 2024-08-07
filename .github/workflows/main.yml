@@ -23,7 +23,7 @@ jobs:
         env:          
           BASE_PATH: '/${{ github.event.repository.name }}'        
         run: |          
-          node --env-file=.env build
+          node -r dotenv/config build
       - name: Upload Artifacts        
         uses: actions/upload-pages-artifact@v3        
         with:          

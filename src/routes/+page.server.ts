@@ -1,5 +1,4 @@
 import { STATICFORM_API_KEY } from "$env/static/private";
-import "dotenv/config";
 export const prerender = false;
 
 export const actions = {
